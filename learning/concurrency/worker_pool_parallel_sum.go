@@ -2,6 +2,10 @@ package concurrency
 
 import "sync"
 
+// You have a list of numbers from 1 to n. You want to calculate the sum of these numbers using a
+// worker pool pattern with a specified number of worker goroutines. Each worker should calculate
+// the sum of a portion of the list and send the result back to the main goroutine, which will then
+// aggregate the results to get the final sum.
 func WorkerPoolParallelSum() {
 	var n int = 100     // Sum of numbers from 1 to n
 	var workers int = 4 // Number of worker goroutines
