@@ -4,5 +4,6 @@ import "github.com/subhankardas/golang-playground/learning/concurrency"
 
 func main() {
 	// concurrency.WorkerPoolParallelSum()
-	concurrency.AggregateAPIResponses()
+	// concurrency.AggregateAPIResponses()
+	concurrency.FanInAPIResponses()
 }
